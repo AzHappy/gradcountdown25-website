@@ -4,7 +4,7 @@ body {
     background: url('grad2024.jpeg') no-repeat center center scroll;
     background-size: cover;
     /*background-color: black;*/
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
