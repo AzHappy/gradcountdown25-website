@@ -3,7 +3,7 @@ body {
     padding: 0;
     background: url('grad2024.jpg') no-repeat center center;
     background-size: cover;
-    /*background-color: black;*/
+    background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
