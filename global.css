@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('photos/grad2024.png') no-repeat center center fixed;
+    background-size: cover;
+    /*background-color: black;*/
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 10px #fff;
+    animation: lights 15s 750ms linear infinite;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Old Standard TT';
+    color: white;
+    margin-bottom: 1em;
+}
+
+#countdown {
+    font-family:unset;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 30px;
+    padding: 20px 40px;
+    background-color: rgba(225, 255, 255, 0.1); 
+    border: 3px solid rgb(122, 117, 165);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    animation: glow 5s infinite ease-in-out;
+}
+
+.footer {
+    margin-top: 1px;
+    font-size: 1rem;
+    color: #b2bec3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@keyframes glow {
+    0%, 100% {
+        text-shadow: 0 0 5px #fff, 0 0 10px blue, 0 0 15px red;
+    }
+    50% {
+        text-shadow: 0 0 10px #fff, 0 0 20px blue, 0 0 30px red;
+    }
+}
+
+@keyframes lights {
+    0% {
+        color: hsl(230, 40%, 80%);
+        text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.2),
+        0 0 0.125em hsla(320, 100%, 60%, 0.3),
+        -1em -0.125em 0.5em hsla(40, 100%, 60%, 0);
+    }
+    30% {
+        color: hsl(230, 80%, 90%);
+        text-shadow: 0 0 1em hsla(230, 100%, 50%, 0.5),
+        -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+        0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4)
+    }
+    40% {
+        color: hsl(230, 100%, 95%);
+        text-shadow:
+        0 0 1em hsla(320, 100%, 50%, 0.5),
+        0 0 0.125em hsla(320, 100%, 90%, 0.5),
+        -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+        0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+    70% {
+        color: hsl(230, 80%, 90%);
+        text-shadow:
+          0 0 1em hsla(320, 100%, 50%, 0.5),
+          0 0 0.125em hsla(320, 100%, 60%, 0.5),
+          0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+          -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+      }
+      100% {
+        color: hsl(230, 40%, 80%);
+        text-shadow:
+          0 0 1em hsla(320, 100%, 50%, 0.2),
+          0 0 0.125em hsla(320, 100%, 60%, 0.3),
+          1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+          -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+      }
+}
