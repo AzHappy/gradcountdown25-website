@@ -105,8 +105,6 @@ h2 {
 }
 @media screen and (max-width: 768px) {
     body {
-        background: url('grad2024.jpeg') no-repeat center center scroll;
         background-size: cover;
-        background-position: center center;
     }
 }
