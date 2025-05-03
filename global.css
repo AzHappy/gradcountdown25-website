@@ -1,8 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('grad2024.jpeg') no-repeat center center fixed;
+    background: url('grad2024.jpeg') no-repeat center center scroll;
     background-size: cover;
+    background-position: center center;
     /*background-color: black;*/
     color: white;
     display: flex;
